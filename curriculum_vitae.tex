@@ -1,0 +1,623 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Freeman Curriculum Vitae
+% XeLaTeX Template
+% Version 2.0 (19/3/2018)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Vel (vel@LaTeXTemplates.com)
+% Alessandro Plasmati
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%!TEX program = xelatex
+% NOTICE: This template must be compiled with XeLaTeX, the line above should
+% ensure this happens automatically but if it doesn't you will need to specify
+% XeLaTeX as the engine in your editor or script
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{article} % Font size, can be: 10pt, 11pt or 12pt
+
+\input{structure.tex} % Include the file that specifies the document structure
+
+% Headers and footers can be added with the \lhead{} \rhead{} \lfoot{} \rfoot{} commands
+% Example right footer:
+%\rfoot{\color{headings}{\sffamily Last update: \today. Typeset with Xe\LaTeX}}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{paracol}{2} % Begin the multi-column environment
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CURRICULUM VITAE TEXT
+%----------------------------------------------------------------------------------------
+
+\parbox[top][0.12\textheight][c]{\linewidth}{ % Parbox to hold the author name and CV text; fixed height to match the coloured box to the right, centred vertically and full line width
+	\vspace{-0.04\textheight} % Reduce whitespace above the parbox to separate it from the main content
+	% \centering % Centre text
+	{\sffamily\Huge Pratyay Amrit}\\\medskip % Your name
+    \\\medskip
+	{\sffamily\LARGE\color{headings} Analyst, Deloitte USI}\\\medskip
+    {\sffamily\Large\color{headings} Engineer | Science \& Technology Enthusiast}
+}
+
+%----------------------------------------------------------------------------------------
+%	ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\section{About Me}
+
+Software Developer and Linux enthusiast, with professional experience in web-development, server administration and database management. Interested in machine learning, natural computing and the philosophy of AI. Appreciates the beauty of science and mathematics.
+
+\medskip % Extra whitespace before the next section
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+% Blank \workposition command to add another job:
+
+%\workposition{} % Duration
+%{} % FT/PT (full time or part time)
+%{} % Employer
+%{} % Job title
+%{} % Description
+
+% All 5 parameters must be supplied but any can be empty if you don't need them
+
+%------------------------------------------------
+
+\workposition{Current, from Aug 2018} % Duration
+{FT} % FT/PT (full time or part time)
+{Deloitte USI | Mumbai-IN} % Employer
+{Analyst} % Job title
+{
+\textbf{>} Full-Stack Java Developer in a public sector project.\\
+\textbf{>} Took the initiative of automating multiple repetitive processes within the project, effectively reducing the manual effort by about 10-15h per week.\\
+\textbf{>} Provided solutions/workarounds to high impact issues which resulted in monetary benefits for the project and the client.\\
+\textbf{>} Had the opportunity to lead newer members coming into the project through multiple action items, and towards a better functional and technical understanding of various modules within the project.\\
+\\
+Technologies Used: Java, IBM Websphere, ILOG Rule (Rule Designer), Oracle SQL, JavaScript, Python.
+} % Description
+
+%------------------------------------------------
+
+\workposition{Jan 2018 -- Jun 2018} % Duration
+{Freelance} % FT/PT (full time or part time)
+{Self Employed} % Employer
+{Freelance Web Developer} % Job title
+{
+\textbf{>} Developing solutions for an upcoming startup\\
+\textbf{>} Responsible for end to end development process and meeting client's expectations.\\
+\\
+Technologies used: PHP, CodeIgniter, HTML, CSS, JavaScript, AngularJS, Git, Linux
+} % Description
+
+%------------------------------------------------
+
+\workposition{Aug 2016 -- Sep 2017} % Duration
+{PT} % FT/PT (full time or part time)
+{Placement Office, MIT | Manipal-IN} % Employer
+{Developer} % Job title
+{
+\textbf{>} Web based portal on the college intranet to provide placement related functionalities, such as registering for companies, building profile etc.\\
+\textbf{>} Responsible for maintenance & operations of the portal, while incorporating any new requirements.\\
+\\
+Technologies used: PHP, HTML, CSS, MySQL, JavaScript, Linux
+} %
+%------------------------------------------------
+
+\workposition{May 2017 -- Jun 2017} % Duration
+{Internsip} % FT/PT (full time or part time)
+{Rudyard.me | WFH} % Employer
+{Web Development Intern} % Job title
+{
+Building a JavaScript based Transcription Editor Module.\\
+\raisebox{-1pt}{\faGithub} & \href{https://github.com/arkeyve/transcription-editor}{https://github.com/arkeyve/transcription-editor} \\
+\\
+Technologies Used: JavaScript, HTML, CSS, PHP, Python, Git, SoX
+}  % Description
+
+%------------------------------------------------
+
+\vspace{-\baselineskip}\medskip % Standardise the whitespace after this section and before the next (the custom command adds too much otherwise)
+
+%----------------------------------------------------------------------------------------
+%	SIDE PROJECTS CONTD.
+%----------------------------------------------------------------------------------------
+
+\workposition{Feb 2019} % Duration
+{} % FT/PT (full time or part time)
+{\textbf{Snake AI}} % Employer
+{} % Job title
+{
+Recreating the classic snake game and teaching the computer to play it using different methods.\\
+\\
+\textbf{>} Game Created\\
+\raisebox{-1pt}{\faGithub} & \href{https://github.com/arkeyve/snake_game}{github.com/arkeyve/snake\_game}\\
+\textbf{>} Greedy Bot Created\\
+\raisebox{-1pt}{\faGithub} & \href{https://github.com/arkeyve/greedy_snake_ai}{github.com/arkeyve/greedy\_snake\_ai}\\
+\\
+Technologies Used: HTML5, JavaScript, CSS
+} % Description
+
+\workposition{Jan 2018 -- Apr 2018} % Duration
+{} % FT/PT (full time or part time)
+{\textbf{Analysis of Anomaly Based Intrusion Detection Systems}} % Employer
+{} % Job title
+{
+An attempt to rank different machine learning techniques on the basis of their accuracy and time of execution for use in Intrusion Detection Systems.\\
+\\
+\raisebox{-1pt}{\faGithub} & \href{https://github.com/Arkeyve/anomaly_based_ids}{github.com/Arkeyve/anomaly\_based\_ids}\\
+Technologies used: Python, Pandas, NumPy
+} % Description
+
+\workposition{Sep 2017 -- Feb 2018} % Duration
+{} % FT/PT (full time or part time)
+{\textbf{BellBots}} % Employer
+{} % Job title
+{
+Built a small bot to follow the owner using a self-developed indoor navigation system to overcome the challenges around the same in the standard GPS + Bluetooth/Ultrasound methods when used indoors, or in multi-bot environments.\\
+\\
+Proof of concept and miniature prototype developed and presented as a business plan, which was awarded a
+Special Prize in the Inter-University B-Plan Competition, Provenance ’18.\\
+\\
+Technologies used: Arduino, RFID, Bluetooth, Self-Baked Indoor Positioning and Navigation System.
+} % Description
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+% Blank \educationentry{} command to add another degree:
+
+%\educationentry{} % Duration
+%{} % Degree
+%{} % Honours, achievements or distinctions (e.g. first class honours)
+%{} % Department
+%{} % Institution
+
+% All 5 parameters must be supplied but any can be empty if you don't need them
+
+%------------------------------------------------
+
+\begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+
+	%------------------------------------------------
+
+	\educationentry{2014 -- 2018} % Duration
+	{Bachelor of Technology} % Degree
+	{CGPA: 7.15} % Honours, achievements or distinctions (e.g. first class honours)
+	{Computer \& Comm. Engineering} % Department
+	{Manipal Institute of Technology} % Institution
+
+	%------------------------------------------------
+
+	\educationentry{2012 -- 2014} % Duration
+	{12th Boards} % Degree
+	{Aggregate: 90.2\%} % Honours, achievements or distinctions (e.g. first class honours)
+	{CBSE} % Department
+	{Delhi Public School, Gurgaon} % Institution
+
+	%------------------------------------------------
+
+	\educationentry{2010 -- 2012} % Duration
+	{10th Boards} % Degree
+	{CGPA: 9.4} % Honours, achievements or distinctions (e.g. first class honours)
+	{CBSE} % Department
+	{Delhi Public School, Maruti Kunj} % Institution
+
+	%------------------------------------------------
+
+\end{supertabular}
+
+%----------------------------------------------------------------------------------------
+%	REFERENCES
+%----------------------------------------------------------------------------------------
+
+% \section{References}
+
+%\textit{References available on request}
+
+%------------------------------------------------
+
+% Example \tableentry{} command to add another line:
+
+%\tableentry{Heading}{Content}{spaceafter}
+
+% All 3 parameters must be supplied but any can be empty if you don't need them
+% A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings
+
+%------------------------------------------------
+
+% \begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+%
+% 	%------------------------------------------------
+%
+% 	\tableentry{}{\textbf{Dr. Isaac Kleiner}}{spaceafter}
+% 	\tableentry{Position}{Professor}{}
+% 	\tableentry{Employer}{\href{http://web.mit.edu/physics/}{Department of Physics}}{}
+% 	\tableentry{}{\href{https://web.mit.edu}{\textit{Massachusetts Institute of Technology}}}{spaceafter}
+% 	\tableentry{Phone}{+1 (617) 253 1000 x5322 (Work)}{}
+% 	\tableentry{Mobile}{+1 (232) 842-3583}{}
+%
+% 	%------------------------------------------------
+%
+% 	\tableentry{}{}{} % Creates some additional whitespace between the references
+%
+% 	%------------------------------------------------
+%
+% 	\tableentry{}{\textbf{Dr. Eli Vance}}{spaceafter}
+% 	\tableentry{Position}{Scientist (HL1)}{}
+% 	\tableentry{Employer}{\href{http://www.bmrf.us}{Black Mesa Research Facility}}{spaceafter}
+% 	\tableentry{Email}{\href{mailto:e.vance@bmrf.us}{e.vance@bmrf.us}}{}
+% 	\tableentry{Phone}{+1 (800) 786-1410 x6235 (Work)}{}
+% 	\tableentry{Mobile}{+1 (201) 632-3901}{}
+%
+% 	%------------------------------------------------
+%
+% \end{supertabular}
+%
+% \medskip % Extra whitespace before the next section
+
+%----------------------------------------------------------------------------------------
+
+\switchcolumn % Switch to the next paracol column
+
+%----------------------------------------------------------------------------------------
+%	COLOURED CONTACT DETAILS BOX
+%----------------------------------------------------------------------------------------
+
+\parbox[top][0.12\textheight][c]{\linewidth}{ % Parbox to hold the colour box; fixed height to match the name/CV text to the left, centred vertically and full line width
+	\vspace{-0.04\textheight} % Reduce whitespace above the parbox to separate it from the main content
+	\colorbox{shade}{ % Create the coloured box
+		\begin{supertabular}{p{0.05\linewidth}|p{0.775\linewidth}} % Start a table with two columns, the table will ensure everything is aligned
+			\raisebox{-1pt}{\faHome} & Mumbai, Maharashtra-IN \\ % Address
+			\raisebox{-1pt}{\faPhone} & +91 7795443730 \\ % Phone number
+			\raisebox{0pt}{\small\faEnvelope} & \href{mailto:p.amrit@live.com}{p.amrit@live.com} \\ % Email address
+            % \raisebox{-1pt}{\small\faDesktop} & \href{https://www.LaTeXTemplates.com}{https://www.LaTeXTemplates.com} \\ % Website
+			\raisebox{-1pt}{\faGithub} & \href{https://github.com/arkeyve}{github.com/arkeyve} \\ % GitHub profile
+			\raisebox{-1pt}{\faLinkedinSquare} & \href{https://www.linkedin.com/in/pratyay-amrit}{linkedin.com/in/pratyay-amrit} \\ % LinkedIn profile
+			% See fontawesome.pdf in the fonts folder for all icons you can use
+		\end{supertabular}
+	}
+}
+
+%------------------------------------------------
+%   WORK EXPERIENCE CONTD.
+%------------------------------------------------
+\medskip
+\medskip
+\medskip
+\medskip
+
+\workposition{May 2016 -- Mar 2017} % Duration
+{PT} % FT/PT (full time or part time)
+{College Fests, MIT | Manipal-IN} % Employer
+{Category Head, System Admin \& Web Dev} % Job title
+{
+\textbf{>} Managing and maintaining database for national level annual fests. (technical fest, TechTatva’16, and cultural fest, Revels’17)\\
+\textbf{>} Developing web based portals for other organizing members of the fest to interact with the central database.\\
+\textbf{>} Responsible for recruiting, training and leading a team of 'organizers'.\\
+\textbf{>} Developing the main website for Revels’17.\\
+\raisebox{-1pt}{\faGithub} & \href{https://github.com/arkeyve/revels17}{https://github.com/arkeyve/revels17}\\
+\\
+Technologies Used: JavaScript HTML CSS Linux InkScape Git PHP MySQL
+} % Description
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Technical Skills}
+
+% Example \tableentry{} command to add another line:
+
+%\tableentry{Heading}{Content}{spaceafter}
+
+% All 3 parameters must be supplied but any can be empty if you don't need them
+% A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings
+
+%------------------------------------------------
+
+\begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+
+	%------------------------------------------------
+
+	\tableentry{Languages}{Python, C/C++, Java, C\#}{}
+    \tableentry{}{Octave/MATLAB}{}
+
+    %------------------------------------------------
+
+    \tableentry{Web Dev}{HTML, JavaScript, CSS, PHP, JSP}{}
+
+    %------------------------------------------------
+
+    \tableentry{Frameworks}{CodeIgnitor, Numpy, Pandas,}{}
+    \tableentry{}{Flask, Angular, OpenCV}{}
+
+    %------------------------------------------------
+
+	\tableentry{Database}{Oracle Database, MySQL}{}
+
+    %------------------------------------------------
+
+    \tableentry{Dev Tools}{Atom, Vim, Jupyter, Eclipse,}{}
+    \tableentry{}{IBM Rule Designer, SVN, git}{}
+
+    %------------------------------------------------
+
+    \tableentry{Design Tools}{GIMP, InkScape}{}
+
+    %------------------------------------------------
+
+    \tableentry{Middleware}{Apache, IBM Websphere (WAS)}{}
+
+    %------------------------------------------------
+
+    \tableentry{OS}{Arch Linux, Windows, Ubuntu}{}
+
+	%------------------------------------------------
+
+	\tableentry{Others}{Arduino, RFID, Sensor Technology}{spaceafter}
+
+	%------------------------------------------------
+
+\end{supertabular}
+
+%----------------------------------------------------------------------------------------
+%	SIDE PROJECTS
+%----------------------------------------------------------------------------------------
+
+\section{Side Projects}
+
+\workposition{Aug 2019} % Duration
+{} % FT/PT (full time or part time)
+{\textbf{Firefly III Migrate}} % Employer
+{} % Job title
+{
+An application to import data from one instance of firefly-iii to another using APIs.\\
+\\
+\raisebox{-1pt}{\faGithub} & \href{https://github.com/arkeyve/firefly_iii_migrate}{github.com/arkeyve/firefly\_iii\_migrate}\\
+Technologies Used: Python, Flask, OAuth2, APIs
+} % Description
+
+\workposition{Mar 2019 --Apr 2019} % Duration
+{} % FT/PT (full time or part time)
+{\textbf{Minesweeper Bot}} % Employer
+{} % Job title
+{
+Recreating minesweeper and creating a bot for it.\\
+\\
+\textbf{>} Game Created\\
+\raisebox{-1pt}{\faGithub} & \href{https://github.com/arkeyve/minesweeper}{github.com/arkeyve/minesweeper}\\
+\textbf{>} Greedy Bot Created\\
+\raisebox{-1pt}{\faGithub} & \href{https://github.com/arkeyve/minesweeper_ai}{github.com/arkeyve/minesweeper\_ai}\\
+\\
+Technologies Used: HTML, JavaScript, CSS
+} % Description
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+% \section{Awards}
+%
+% % Example \tableentry{} command to add another line:
+%
+% %\tableentry{Heading}{Content}{spaceafter}
+%
+% % All 3 parameters must be supplied but any can be empty if you don't need them
+% % A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings
+%
+% %------------------------------------------------
+%
+% \begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+%
+% 	%------------------------------------------------
+%
+% 	\tableentry{1985}{\textbf{Faculty of Science Masters Scholarship}}{}
+% 	\tableentry{}{\textit{Massachusetts Institute of Technology}}{spaceafter}
+%
+% 	%------------------------------------------------
+%
+% 	\tableentry{1983}{\textbf{Top Achiever Award -- Physics}}{}
+% 	\tableentry{}{\textit{The University of Washington}}{spaceafter}
+%
+% 	%------------------------------------------------
+%
+% \end{supertabular}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS
+%----------------------------------------------------------------------------------------
+
+% \section{Communication Skills}
+%
+% % Example \tableentry{} command to add another line:
+%
+% %\tableentry{Heading}{Content}{spaceafter}
+%
+% % All 3 parameters must be supplied but any can be empty if you don't need them
+% % A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings
+%
+% %------------------------------------------------
+%
+% \begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+%
+% 	%------------------------------------------------
+%
+% 	\tableentry{Conferences}{Oral Presentation at the Annual MIT}{}
+% 	\tableentry{}{Theoretical Physics Conference -- 1987}{spaceafter}
+%
+% 	%------------------------------------------------
+%
+% 	\tableentry{Posters}{Poster at the Meeting of the American}{}
+% 	\tableentry{}{Physical Society -- 1985}{spaceafter}
+%
+% 	%------------------------------------------------
+%
+% \end{supertabular}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS DESCRIPTION
+%----------------------------------------------------------------------------------------
+%
+% \section{Skills}
+%
+% % Example \longformdescription{} command to add another section:
+%
+% %\longformdescription{Heading}{Description}
+%
+% %------------------------------------------------
+%
+% \longformdescription{Goal Oriented}{I believe in action over long-winded discussions. I listen to everyone's viewpoints and use my judgement to immediately act based on consensus to achieve goals quickly and efficiently.}
+%
+% \longformdescription{Physical Dexterity}{Manual manipulation of experimental equipment and training within Black Mesa (e.g. the Hazard Course) have contributed to an enjoyment of working with my hands.}
+%
+% \longformdescription{Passionate}{I have been interested in theoretical physics such as quantum mechanics and relativity from an early age. My education and research have cemented this interest into a passion. I greatly enjoy carrying out fundamental physics research with potential practical applications.}
+
+%----------------------------------------------------------------------------------------
+%	CERTIFICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Certifications}
+
+% Blank \educationentry{} command to add another degree:
+
+%\educationentry{} % Duration
+%{} % Degree
+%{} % Honours, achievements or distinctions (e.g. first class honours)
+%{} % Department
+%{} % Institution
+
+% All 5 parameters must be supplied but any can be empty if you don't need them
+
+%------------------------------------------------
+
+\begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+
+	%------------------------------------------------
+
+	\tableentry{May 2020}{\textbf{Deep Learning Specialization}}{} % Course
+	\tableentry{}{Coursera}{} % Issuing Authority
+	\tableentry{}{Credetial ID: H5UHNL6WU6FU}{} % Credetial
+    \\
+
+	%------------------------------------------------
+
+    \tableentry{Dec 2019}{\textbf{Oracle Certified Associate,}}{} % Course
+    \tableentry{}{\textbf{Java SE 8 Programmer}}{}
+	\tableentry{}{Oracle}{} % Issuing Authority
+	\tableentry{}{Credetial ID: 269982030OCAJSE8}{} % Credetial
+    \\
+
+	%------------------------------------------------
+
+    \tableentry{Jan 2019}{\textbf{Machine Learning}}{} % Course
+	\tableentry{}{Coursera}{} % Issuing Authority
+	\tableentry{}{Credetial ID: VJWFES2KXDVV}{} % Credetial
+    \\
+
+	%------------------------------------------------
+
+    \tableentry{May 2016}{\textbf{Cloud fundamentals}}{} % Course
+    \tableentry{}{Microsoft Technology Associate}{} % Issuing Authority
+    \tableentry{}{Credetial ID: F738-0051}{} % Credetial
+    \\
+
+    %------------------------------------------------
+
+    \tableentry{Oct 2012}{\textbf{Object Oriented Programming in C++}}{} % Course
+    \tableentry{}{NIIT Limited}{} % Issuing Authority
+    \tableentry{}{Credetial ID: 12EEZZZZZ2423}{} % Credetial
+    \\
+
+    %------------------------------------------------
+
+    \tableentry{Oct 2012}{\textbf{Programming in C}}{} % Course
+    \tableentry{}{NIIT Limited}{} % Issuing Authority
+    \tableentry{}{Credetial ID: 12EEZZZZZ2422}{} % Credetial
+    \\
+
+    %------------------------------------------------
+
+\end{supertabular}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+% \section{Publications}
+%
+% % Example \longformdescription{} command to add another publication:
+%
+% %\longformpublication{Reference (format this manually as desired)}
+%
+% %------------------------------------------------
+%
+% \longformpublication{\textbf{Freeman, G. R.} (1996). Chemistry of Multiply Charged Negative Molecular Ions and Clusters in the Gas Phase:  Terrestrial and in Intense Galactic Magnetic Fields. \textit{The Journal of Physical Chemistry}, \textit{100}(11), 4331-4338.}
+%
+% \longformpublication{Jacobsen, F. M., Gee, N., \textbf{Freeman, G. R.} (1986). Electron mobility in liquid krypton as function of density, temperature, and electric field strength. \textit{Physical Review A}, \textit{34}(3): 2329-2335.}
+%
+% %------------------------------------------------
+%
+% % As an alternative to a long-form publication list, you can create a shorter summary using only DOI values and years.
+%
+% % Example \doipublication{} command to add another publication:
+%
+% %\doipublication{Year}{DOI}{firstauthor}{spaceafter}
+%
+% % All four parameters are required (can be empty though)
+% % A value of "firstauthor" in the third parameter will print the DOI in bold
+% % A "spaceafter" value in the fourth parameter will add some vertical space -- this is to be used between years
+%
+% %------------------------------------------------
+%
+% \begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+%
+% 	%------------------------------------------------
+%
+% 	\doipublication{1996}{10.1021/jp951483+}{firstauthor}{spaceafter}
+%
+% 	%------------------------------------------------
+%
+% 	\doipublication{1990}{10.1139/p90-097}{firstauthor}{spaceafter}
+% 	\doipublication{1986}{10.1139/v86-297}{}{}
+%
+% 	%------------------------------------------------
+%
+% 	\doipublication{1986}{10.1103/PhysRevA.34.2329}{}{spaceafter}
+%
+% 	%------------------------------------------------
+%
+% 	& \textit{First author publications in} \textbf{bold}\\
+%
+% 	%------------------------------------------------
+%
+% \end{supertabular}
+%
+% \medskip % Extra whitespace before the next section
+
+%----------------------------------------------------------------------------------------
+
+\end{paracol}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

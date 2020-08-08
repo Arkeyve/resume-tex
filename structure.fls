@@ -1,0 +1,9 @@
+PWD /run/media/archive/study/projects/resume
+INPUT /usr/share/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT structure.tex
+OUTPUT structure.log
+INPUT fonts/fontawesomesymbols-xeluatex.tex
+INPUT fonts/fontawesomesymbols-xeluatex.tex
+INPUT /usr/share/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm

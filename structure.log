@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.7.8)  8 AUG 2020 18:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.7.8)  9 AUG 2020 04:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -32,19 +32,31 @@ l.26 \usepackage{
 between \documentclass and \begin{document}.
 
 
-./structure.tex:32: LaTeX Error: \usepackage before \documentclass.
+./structure.tex:28: LaTeX Error: \usepackage before \documentclass.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 \usepackage{
+l.28 \usepackage{
+                 tikz}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+./structure.tex:34: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \usepackage{
                  geometry} % Required for adjusting page dimensions and margins
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
-./structure.tex:34: Undefined control sequence.
-l.34 \geometry
+./structure.tex:36: Undefined control sequence.
+l.36 \geometry
               {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -53,13 +65,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./structure.tex:35: LaTeX Error: Missing \begin{document}.
+./structure.tex:37: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 	h
+l.37 	h
        margin=1.5cm, % Horizontal margin
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -102,19 +114,19 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no , in font nullfont!
 
-./structure.tex:45: LaTeX Error: \usepackage before \documentclass.
+./structure.tex:47: LaTeX Error: \usepackage before \documentclass.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.45 \usepackage{
+l.47 \usepackage{
                  paracol} % Required for creating multi-column layouts that ...
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
-./structure.tex:47: Undefined control sequence.
-l.47 \columnratio
+./structure.tex:49: Undefined control sequence.
+l.49 \columnratio
                  {0.55,0.45} % The relative ratios of the two columns in the CV
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -123,13 +135,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./structure.tex:47: LaTeX Error: Missing \begin{document}.
+./structure.tex:49: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47 \columnratio{0
+l.49 \columnratio{0
                    .55,0.45} % The relative ratios of the two columns in the CV
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -144,20 +156,20 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no 4 in font nullfont!
 Missing character: There is no 5 in font nullfont!
 
-./structure.tex:55: LaTeX Error: \usepackage before \documentclass.
+./structure.tex:57: LaTeX Error: \usepackage before \documentclass.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.55 \usepackage{
+l.57 \usepackage{
                  fontspec} % Required for specifying custom fonts under XeLaTeX
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
-./structure.tex:57: Undefined control sequence.
-l.57 \setmainfont
-                 {EBGaramond}[ % Make the default font EBGaramond
+./structure.tex:59: Undefined control sequence.
+l.59 \setmainfont
+                 {AlegreyaSans}[ % Make the default font EBGaramond
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -165,27 +177,29 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./structure.tex:57: LaTeX Error: Missing \begin{document}.
+./structure.tex:59: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 \setmainfont{E
-                   BGaramond}[ % Make the default font EBGaramond
+l.59 \setmainfont{A
+                   legreyaSans}[ % Make the default font EBGaramond
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no E in font nullfont!
-Missing character: There is no B in font nullfont!
-Missing character: There is no G in font nullfont!
-Missing character: There is no a in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
 Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no y in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no o in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no d in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no [ in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -323,19 +337,49 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no f in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no f in font nullfont!
 Missing character: There is no ] in font nullfont!
-./structure.tex:66: Undefined control sequence.
-l.66 \newfontfamily
-                   \cvtextfont[Path=fonts/]{freebooterscript} % Create a new...
+./structure.tex:69: Undefined control sequence.
+l.69 \newfontfamily
+                   \cvtextfont[Path=fonts/]{AlegreyaSans-SC} % Create a new ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./structure.tex:66: Undefined control sequence.
-l.66 \newfontfamily\cvtextfont
-                              [Path=fonts/]{freebooterscript} % Create a new...
+./structure.tex:69: Undefined control sequence.
+l.69 \newfontfamily\cvtextfont
+                              [Path=fonts/]{AlegreyaSans-SC} % Create a new ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -343,14 +387,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./structure.tex:66: LaTeX Error: Missing \begin{document}.
+./structure.tex:69: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 \newfontfamily\cvtextfont[
-                               Path=fonts/]{freebooterscript} % Create a new...
+l.69 \newfontfamily\cvtextfont[
+                               Path=fonts/]{AlegreyaSans-SC} % Create a new ...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -367,24 +411,23 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no ] in font nullfont!
-Missing character: There is no f in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-./structure.tex:68: Undefined control sequence.
-l.68 \newfontfamily
+Missing character: There is no - in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no C in font nullfont!
+./structure.tex:71: Undefined control sequence.
+l.71 \newfontfamily
                    {\FA}[Path=fonts/]{FontAwesome} % Create a new font famil...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -392,8 +435,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./structure.tex:68: Undefined control sequence.
-l.68 \newfontfamily{\FA
+./structure.tex:71: Undefined control sequence.
+l.71 \newfontfamily{\FA
                        }[Path=fonts/]{FontAwesome} % Create a new font famil...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -402,13 +445,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./structure.tex:68: LaTeX Error: Missing \begin{document}.
+./structure.tex:71: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.68 \newfontfamily{\FA}[
+l.71 \newfontfamily{\FA}[
                          Path=fonts/]{FontAwesome} % Create a new font famil...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -439,31 +482,31 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 (./fonts/fontawesomesymbols-xeluatex.tex)
 
-./structure.tex:71: LaTeX Error: \usepackage before \documentclass.
+./structure.tex:74: LaTeX Error: \usepackage before \documentclass.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 \usepackage[sf,scale=0.95]{
+l.74 \usepackage[sf,scale=0.95]{
                                 libertine} % Load Libertine as a \sffamily f...
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 
-./structure.tex:77: LaTeX Error: \usepackage before \documentclass.
+./structure.tex:80: LaTeX Error: \usepackage before \documentclass.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.77 \usepackage[usenames,svgnames]{
+l.80 \usepackage[usenames,svgnames]{
                                     xcolor} % Allows the definition and use ...
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
-./structure.tex:79: Undefined control sequence.
-l.79 \definecolor
+./structure.tex:82: Undefined control sequence.
+l.82 \definecolor
                  {text}{HTML}{2b2b2b} % Main document font colour, off-black
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -472,13 +515,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./structure.tex:79: LaTeX Error: Missing \begin{document}.
+./structure.tex:82: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 \definecolor{t
+l.82 \definecolor{t
                    ext}{HTML}{2b2b2b} % Main document font colour, off-black
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -497,8 +540,8 @@ Missing character: There is no 2 in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no b in font nullfont!
-./structure.tex:80: Undefined control sequence.
-l.80 \definecolor
+./structure.tex:83: Undefined control sequence.
+l.83 \definecolor
                  {headings}{HTML}{701112} % Dark red colour for headings
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -524,8 +567,8 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no 2 in font nullfont!
-./structure.tex:81: Undefined control sequence.
-l.81 \definecolor
+./structure.tex:84: Undefined control sequence.
+l.84 \definecolor
                  {shade}{HTML}{F5DD9D} % Peach colour for the contact inform...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -548,8 +591,8 @@ Missing character: There is no D in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no 9 in font nullfont!
 Missing character: There is no D in font nullfont!
-./structure.tex:82: Undefined control sequence.
-l.82 \definecolor
+./structure.tex:85: Undefined control sequence.
+l.85 \definecolor
                  {linkcolor}{HTML}{641c1d} % 25% desaturated headings colour...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -576,8 +619,8 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no d in font nullfont!
-./structure.tex:87: Undefined control sequence.
-l.87 \color
+./structure.tex:90: Undefined control sequence.
+l.90 \color
            {text} % Set the default text colour for the whole document to th...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -586,13 +629,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./structure.tex:87: LaTeX Error: Missing \begin{document}.
+./structure.tex:90: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.87 \color{t
+l.90 \color{t
              ext} % Set the default text colour for the whole document to th...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -602,19 +645,19 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no x in font nullfont!
 Missing character: There is no t in font nullfont!
 
-./structure.tex:91: LaTeX Error: \usepackage before \documentclass.
+./structure.tex:95: LaTeX Error: \usepackage before \documentclass.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91 \usepackage{
+l.95 \usepackage{
                  hyperref} % Required for links
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
-./structure.tex:93: Undefined control sequence.
-l.93 \hypersetup
+./structure.tex:97: Undefined control sequence.
+l.97 \hypersetup
                 {colorlinks, breaklinks, urlcolor=linkcolor, linkcolor=linkc...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -623,13 +666,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./structure.tex:93: LaTeX Error: Missing \begin{document}.
+./structure.tex:97: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.93 \hypersetup{c
+l.97 \hypersetup{c
                   olorlinks, breaklinks, urlcolor=linkcolor, linkcolor=linkc...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -695,21 +738,21 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 
-./structure.tex:100: LaTeX Error: \usepackage before \documentclass.
+./structure.tex:104: LaTeX Error: \usepackage before \documentclass.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.100 \usepackage{
+l.104 \usepackage{
                   fancyhdr} % Required for customising headers and footers
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
-./structure.tex:102: Undefined control sequence.
+./structure.tex:106: Undefined control sequence.
 <argument> \undefinedpagestyle 
                                
-l.102 \pagestyle{fancy}
+l.106 \pagestyle{fancy}
                         % Enable custom headers and footers
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -717,8 +760,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./structure.tex:104: Undefined control sequence.
-l.104 \fancyhf
+./structure.tex:108: Undefined control sequence.
+l.108 \fancyhf
               {} % This suppresses all headers and footers by default, add h...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -727,43 +770,43 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./structure.tex:106: LaTeX Error: Command \headrulewidth undefined.
+./structure.tex:110: LaTeX Error: Command \headrulewidth undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.106 \renewcommand{\headrulewidth}
+l.110 \renewcommand{\headrulewidth}
                                    {0pt} % Remove the default rule under the...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./structure.tex:112: LaTeX Error: \usepackage before \documentclass.
+./structure.tex:116: LaTeX Error: \usepackage before \documentclass.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.112 \usepackage[nobottomtitles*]{
+l.116 \usepackage[nobottomtitles*]{
                                    titlesec} % Required for modifying sectio...
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 
-./structure.tex:114: LaTeX Error: Command \bottomtitlespace undefined.
+./structure.tex:118: LaTeX Error: Command \bottomtitlespace undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114 \renewcommand{\bottomtitlespace}
+l.118 \renewcommand{\bottomtitlespace}
                                       {0.1\textheight} % Modify the minimal ...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./structure.tex:116: Undefined control sequence.
-l.116 \titleformat
+./structure.tex:120: Undefined control sequence.
+l.120 \titleformat
                   {\section}{\color{headings}\scshape\LARGE\raggedright}{}{0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -771,8 +814,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./structure.tex:116: Undefined control sequence.
-l.116 \titleformat{\section
+./structure.tex:120: Undefined control sequence.
+l.120 \titleformat{\section
                            }{\color{headings}\scshape\LARGE\raggedright}{}{0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -780,8 +823,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./structure.tex:116: Undefined control sequence.
-l.116 \titleformat{\section}{\color
+./structure.tex:120: Undefined control sequence.
+l.120 \titleformat{\section}{\color
                                    {headings}\scshape\LARGE\raggedright}{}{0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -790,13 +833,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./structure.tex:116: LaTeX Error: Missing \begin{document}.
+./structure.tex:120: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.116 \titleformat{\section}{\color{h
+l.120 \titleformat{\section}{\color{h
                                      eadings}\scshape\LARGE\raggedright}{}{0...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -809,8 +852,8 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no s in font nullfont!
-./structure.tex:116: Undefined control sequence.
-l.116 ...{\section}{\color{headings}\scshape\LARGE
+./structure.tex:120: Undefined control sequence.
+l.120 ...{\section}{\color{headings}\scshape\LARGE
                                                   \raggedright}{}{0em}{}[\co...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -822,8 +865,8 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no [ in font nullfont!
-./structure.tex:116: Undefined control sequence.
-l.116 ...cshape\LARGE\raggedright}{}{0em}{}[\color
+./structure.tex:120: Undefined control sequence.
+l.120 ...cshape\LARGE\raggedright}{}{0em}{}[\color
                                                   {black}\titlerule] % Defin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -836,8 +879,8 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no k in font nullfont!
-./structure.tex:116: Undefined control sequence.
-l.116 ...edright}{}{0em}{}[\color{black}\titlerule
+./structure.tex:120: Undefined control sequence.
+l.120 ...edright}{}{0em}{}[\color{black}\titlerule
                                                   ] % Define the \section fo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -846,8 +889,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Missing character: There is no ] in font nullfont!
-./structure.tex:118: Undefined control sequence.
-l.118 \titlespacing
+./structure.tex:122: Undefined control sequence.
+l.122 \titlespacing
                    {\section}{0pt}{0pt}{8pt} % Spacing around section titles...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -855,8 +898,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./structure.tex:118: Undefined control sequence.
-l.118 \titlespacing{\section
+./structure.tex:122: Undefined control sequence.
+l.122 \titlespacing{\section
                             }{0pt}{0pt}{8pt} % Spacing around section titles...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -865,13 +908,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./structure.tex:118: LaTeX Error: Missing \begin{document}.
+./structure.tex:122: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.118 \titlespacing{\section}{0
+l.122 \titlespacing{\section}{0
                                pt}{0pt}{8pt} % Spacing around section titles...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -893,10 +936,10 @@ Missing character: There is no t in font nullfont!
 
  
 Here is how much of TeX's memory you used:
- 1490 strings out of 480478
- 19947 string characters out of 5905960
- 251161 words of memory out of 5000000
- 17611 multiletter control sequences out of 15000+600000
+ 1493 strings out of 480478
+ 19962 string characters out of 5905960
+ 251269 words of memory out of 5000000
+ 17614 multiletter control sequences out of 15000+600000
  532639 words of font info for 25 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  12i,1n,15p,363b,46s stack positions out of 5000i,500n,10000p,200000b,80000s

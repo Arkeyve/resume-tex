@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1596927050 "curriculum_vitae.xdv" "curriculum_vitae.pdf" "curriculum_vitae" 1596927050
-  "curriculum_vitae.xdv" 1596927050 58228 8462d59a4604f2ad652a03c1f729953b "xelatex"
+["xdvipdfmx"] 1599331617 "curriculum_vitae.xdv" "curriculum_vitae.pdf" "curriculum_vitae" 1599331617
+  "curriculum_vitae.xdv" 1599331617 59084 fa6d1a223ce74cc0f2628c54c69f1adb "xelatex"
   (generated)
   "curriculum_vitae.pdf"
-["xelatex"] 1596927048 "curriculum_vitae.tex" "curriculum_vitae.xdv" "curriculum_vitae" 1596927050
+["xelatex"] 1599331614 "curriculum_vitae.tex" "curriculum_vitae.xdv" "curriculum_vitae" 1599331617
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1591545468 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1591545468 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1591545468 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -140,14 +140,14 @@
   "/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty" 1591545468 55589 34128738f682d033422ca125f82e5d62 ""
   "/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1591545468 4962 9c1069474ff71dbc47d5006555e352d3 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1591545468 33301 a3134070eacafb10b1f371612ce2650d ""
-  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1594158188 5164746 d47f67cdd528a2b2f2ebc0b211f57d53 ""
-  "curriculum_vitae.aux" 1596927050 1280 2a5cb3b6cff9b98b9c00fb0e599c0a71 "xelatex"
-  "curriculum_vitae.out" 1596927050 289 e16fde5d7e3b31c335d65bf542652e37 "xelatex"
-  "curriculum_vitae.tex" 1596926871 25146 06adbb00d43f60409d290569201c2864 ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1598836925 5164748 0b4f80aaac793d0a9ea6687461a3075e ""
+  "curriculum_vitae.aux" 1599331617 1280 2a5cb3b6cff9b98b9c00fb0e599c0a71 "xelatex"
+  "curriculum_vitae.out" 1599331617 289 e16fde5d7e3b31c335d65bf542652e37 "xelatex"
+  "curriculum_vitae.tex" 1599331598 25388 a43a6107c90709f1b4834ae9b832b132 ""
   "fonts/fontawesomesymbols-xeluatex.tex" 1596871924 79158 dd7669a3836773464aee6d1cfe7ee953 ""
   "structure.tex" 1596927045 7979 729132d84e1e2cad2d248c85f51c29d7 ""
   (generated)
+  "curriculum_vitae.log"
   "curriculum_vitae.aux"
   "curriculum_vitae.xdv"
-  "curriculum_vitae.log"
   "curriculum_vitae.out"
